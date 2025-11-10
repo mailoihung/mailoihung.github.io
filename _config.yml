@@ -1,26 +1,36 @@
-# Cấu hình Theme Chirpy
-remote_theme: "cotes2020/jekyll-theme-chirpy@v6.6" 
+# Cấu hình Theme Minimal Mistakes
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # Chọn giao diện (default, air, aqua, dark, v.v.)
 
 # Cài đặt Cơ bản
-title: Mai Lợi Hưng's Security Portfolio
-tagline: Security Admin | DevSecOps
-description: "Đây là nơi chia sẻ các project mà mình làm để nâng cao kiến thức của bản thân."
+title: "Mai Lợi Hưng's Security Portfolio"
+tagline: "DevSecOps | Security Admin"
+description: "Nơi chia sẻ các dự án DevSecOps, và kiến trúc bảo mật."
+url: "https://mailoihung.github.io" # URL trang của bạn
 
-# Thiết lập URL và Site Build
-url: "https://mailoihung.github.io" # Đặt URL chính thức của bạn
-baseurl: "" # Thường để trống cho GitHub Pages
+# Thông tin Tác giả (Hiển thị ở sidebar)
+author:
+  name: "Hưng Mai (Michael)"
+  avatar: "/assets/images/avatar.jpg" # (Tùy chọn) Bạn sẽ tải ảnh avatar lên sau
+  bio: "Security Admin/Engineer. Đam mê DevSecOps và tự động hóa."
+  location: "Ho Chi Minh City, Vietnam"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mailoihung"
+    # Thêm các link khác như LinkedIn nếu muốn
 
-# Tích hợp chức năng (Cần thiết cho Chirpy)
+# Cài đặt Build
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
 
-# Cài đặt Tùy chỉnh (Tùy chọn)
-timezone: Asia/Ho_Chi_Minh
-github:
-  # Link đến GitHub của bạn (Quan trọng cho Footer)
-  username: mailoihung
-
-# Thiết lập Giao diện - (Bạn có thể chọn dark mode nếu muốn)
-theme_mode: auto # auto, light, hoặc dark
+# Cấu hình thanh điều hướng (Navigation)
+main_nav:
+  - title: "Blog Posts"
+    url: /year-archive/
+  - title: "About"
+    url: /about/
+  - title: "Categories"
+    url: /categories/
