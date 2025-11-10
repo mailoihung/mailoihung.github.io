@@ -1,0 +1,26 @@
+# Cấu hình Theme Chirpy
+remote_theme: "cotes2020/jekyll-theme-chirpy@v6.6" 
+
+# Cài đặt Cơ bản
+title: Mai Lợi Hưng's Security Portfolio
+tagline: Security Admin | DevSecOps
+description: "Đây là nơi chia sẻ các project mà mình làm để nâng cao kiến thức của bản thân."
+
+# Thiết lập URL và Site Build
+url: "https://mailoihung.github.io" # Đặt URL chính thức của bạn
+baseurl: "" # Thường để trống cho GitHub Pages
+
+# Tích hợp chức năng (Cần thiết cho Chirpy)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Cài đặt Tùy chỉnh (Tùy chọn)
+timezone: Asia/Ho_Chi_Minh
+github:
+  # Link đến GitHub của bạn (Quan trọng cho Footer)
+  username: mailoihung
+
+# Thiết lập Giao diện - (Bạn có thể chọn dark mode nếu muốn)
+theme_mode: auto # auto, light, hoặc dark
