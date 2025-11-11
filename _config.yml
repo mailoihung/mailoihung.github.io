@@ -3,7 +3,7 @@ theme: "minimal-mistakes-jekyll" # Kích hoạt theme
 minimal_mistakes_skin: "default" # Giao diện (default, air, aqua, dark, v.v.)
 
 # Cài đặt Cơ bản
-title: "Hùng Mai's Security Portfolio"
+title: "HungML's Security Portfolio"
 tagline: "DevSecOps | Cloud Security | Threat Hunting"
 description: "Nơi chia sẻ các dự án DevSecOps, Threat Hunting và kiến trúc bảo mật."
 url: "https://mailoihung.github.io" 
