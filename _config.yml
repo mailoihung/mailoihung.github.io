@@ -1,6 +1,6 @@
 # Cấu hình Theme Minimal Mistakes (Cài đặt qua Gemfile)
-theme: "minimal-mistakes-jekyll" # Kích hoạt theme
-minimal_mistakes_skin: "default" # Giao diện (default, air, aqua, dark, v.v.)
+theme: "minimal-mistakes-jekyll" 
+minimal_mistakes_skin: "default" 
 
 # Cài đặt Cơ bản
 title: "HungML's Security Portfolio"
