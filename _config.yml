@@ -10,7 +10,7 @@ url: "https://mailoihung.github.io"
 
 # Thông tin Tác giả
 author:
-  name: "Hùng Mai (Michael)"
+  name: "Hưng Mai (Michael)"
   bio: "Security Admin/Engineer. Đam mê DevSecOps và tự động hóa."
   location: "Ho Chi Minh City, Vietnam"
   links:
@@ -25,7 +25,7 @@ plugins:
   - jekyll-remote-theme 
 
 # Cấu hình thanh điều hướng
-main_nav:
+main:
   - title: "Blog Posts"
     url: /year-archive/
   - title: "About"
