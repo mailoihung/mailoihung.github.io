@@ -1,36 +1,32 @@
-# Cấu hình Theme Minimal Mistakes
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # Chọn giao diện (default, air, aqua, dark, v.v.)
+# Cấu hình Theme Minimal Mistakes (Cài đặt qua Gemfile)
+theme: "minimal-mistakes-jekyll" # Kích hoạt theme
+minimal_mistakes_skin: "default" # Giao diện (default, air, aqua, dark, v.v.)
 
 # Cài đặt Cơ bản
-title: "Mai Lợi Hưng's Security Portfolio"
-tagline: "DevSecOps | Security Admin"
-description: "Nơi chia sẻ các dự án DevSecOps, và kiến trúc bảo mật."
-url: "https://mailoihung.github.io" # URL trang của bạn
+title: "Hùng Mai's Security Portfolio"
+tagline: "DevSecOps | Cloud Security | Threat Hunting"
+description: "Nơi chia sẻ các dự án DevSecOps, Threat Hunting và kiến trúc bảo mật."
+url: "https://mailoihung.github.io" 
 
-# Thông tin Tác giả (Hiển thị ở sidebar)
+# Thông tin Tác giả
 author:
-  name: "Hưng Mai (Michael)"
-  avatar: "/assets/images/avatar.jpg" # (Tùy chọn) Bạn sẽ tải ảnh avatar lên sau
+  name: "Hùng Mai (Michael)"
   bio: "Security Admin/Engineer. Đam mê DevSecOps và tự động hóa."
   location: "Ho Chi Minh City, Vietnam"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mailoihung"
-    # Thêm các link khác như LinkedIn nếu muốn
 
 # Cài đặt Build
 plugins:
-  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-remote-theme 
 
-# Cấu hình thanh điều hướng (Navigation)
+# Cấu hình thanh điều hướng
 main_nav:
   - title: "Blog Posts"
     url: /year-archive/
   - title: "About"
     url: /about/
-  - title: "Categories"
-    url: /categories/
