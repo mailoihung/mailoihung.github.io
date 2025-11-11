@@ -6,7 +6,7 @@ minimal_mistakes_skin: "default" # Giao diện (default, air, aqua, dark, v.v.)
 title: "HungML's Security Portfolio"
 tagline: "DevSecOps | Cloud Security | Threat Hunting"
 description: "Nơi chia sẻ các dự án DevSecOps, Threat Hunting và kiến trúc bảo mật."
-url: "https://mailoihung.github.io" 
+url: "https://mailoihung.github.io"
 
 # Thông tin Tác giả
 author:
@@ -22,7 +22,7 @@ author:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-remote-theme 
+  - jekyll-remote-theme
 
 # Cấu hình thanh điều hướng
 main:
