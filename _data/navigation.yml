@@ -1,0 +1,7 @@
+# Cấu hình thanh điều hướng chính
+
+main:
+  - title: "Blog Posts"
+    url: /year-archive/
+  - title: "About"
+    url: /about/
