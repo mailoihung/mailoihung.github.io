@@ -24,6 +24,21 @@ plugins:
   - jekyll-sitemap
   - jekyll-remote-theme
 
+# Ghi đè CSS Mặc định (Đảm bảo chiều rộng tối đa)
+defaults:
+  # Áp dụng cho tất cả các trang tĩnh (như trang About)
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      classes: wide
+  # Áp dụng cho tất cả các bài blog (Posts)
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      classes: wide
+
 # Cấu hình thanh điều hướng
 #main:
 #  - title: "Blog Posts"
