@@ -3,6 +3,7 @@ layout: single
 title: "Giới thiệu về tôi"
 permalink: /about/
 author_profile: true
+toc: true
 ---
 
 ## Xin chào, tôi là Hưng Mai (Michael)
