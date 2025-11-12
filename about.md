@@ -4,6 +4,7 @@ title: "Giới thiệu về tôi"
 permalink: /about/
 author_profile: true
 toc: true
+toc_label: "Mục lục"
 ---
 
 ## Xin chào, tôi là Hưng Mai (Michael)
