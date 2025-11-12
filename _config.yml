@@ -4,8 +4,8 @@ minimal_mistakes_skin: "default"
 
 # Cài đặt Cơ bản
 title: "HungML's Security Portfolio"
-tagline: "DevSecOps | Cloud Security | Threat Hunting"
-description: "Nơi chia sẻ các dự án DevSecOps, Threat Hunting và kiến trúc bảo mật."
+tagline: "Security Admin | Cloud Security | DevSecOps"
+description: "Nơi chia sẻ các dự án DevSecOps, Security Admin và kiến trúc bảo mật."
 url: "https://mailoihung.github.io"
 
 # Thông tin Tác giả
