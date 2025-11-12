@@ -43,8 +43,8 @@ toc:
   min_level: 2
   max_level: 3
 # Cấu hình thanh điều hướng
-#main:
-#  - title: "Blog Posts"
-#    url: /year-archive/
-#  - title: "About"
-#    url: /about/
+main:
+  - title: "Blog Posts"
+    url: /year-archive/
+  - title: "About"
+    url: /about/
