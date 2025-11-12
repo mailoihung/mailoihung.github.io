@@ -38,7 +38,10 @@ defaults:
       type: "posts"
     values:
       classes: wide
-
+# Cấu hình Mục lục (Table of Contents - TOC)
+toc:
+  min_level: 2
+  max_level: 3
 # Cấu hình thanh điều hướng
 #main:
 #  - title: "Blog Posts"
